@@ -28,4 +28,4 @@ lazy val application =
 
 lazy val root =
   Project("workshop", file("."))
-  .aggregate(dataTables, model)
+  .aggregate(application)
