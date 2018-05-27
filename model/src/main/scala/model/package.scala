@@ -8,6 +8,6 @@ package object model {
 
   case class PassengerInTrip(tripId: Int, passengerId: Int, date: LocalDate, place: String)
 
-  case class Trip(trip_no: Int, ID_comp: Int, plane: String, townFrom: String, townTo: String, timeOut: LocalTime, timeIn: LocalTime)
+  case class Trip(id: Int, CompanyId: Int, plane: String, townFrom: String, townTo: String, timeOut: LocalTime, timeIn: LocalTime)
 
 }
